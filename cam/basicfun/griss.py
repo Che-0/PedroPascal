@@ -12,6 +12,7 @@ cv.imshow('Gray', gray)
 # Desenfocar una imagen 
 # blir se nevarga de suavizar una imagen 
 blur = cv.GaussianBlur(img, (65,65), cv.BORDER_DEFAULT)
+#border default es un parametro que se le pone a la imagen para que se rellene con pixeles negros
 # utilizando como parametro el tamaño img y el kernel
 # se pone (7,7) para que sea impar y asi se pueda centrar puede ser cualquier numero impar
 cv.imshow('Blur', blur)

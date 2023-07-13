@@ -45,4 +45,5 @@ cropped = img[0:400, 300:400] # Recortamos la imagen
 #0:400 = alto, 300:400 = ancho
 cv.imshow('cropped', cropped)
 
+
 cv.waitKey(0)
