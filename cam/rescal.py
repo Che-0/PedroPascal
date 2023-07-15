@@ -8,7 +8,7 @@
 
 import cv2 as cv
 
-imf = cv.imread('photos/R.jpg')
+img = cv.imread('photos/an.jpg')
 cv.imshow('R',img)
 
 def rescaleFrame(frame, scale=0.75):
@@ -23,5 +23,8 @@ def rescaleFrame(frame, scale=0.75):
     #hay varios metodos pero el mas usado es el INTER_AREA
     #interpolation se encarga de cambiar el tamaño de la imagen o video 
 
+resized_image = rescaleFrame(img)
+cv.imshow('Resca', resized_image)
+cv.waitKey(0)
 
     

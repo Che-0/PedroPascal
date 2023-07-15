@@ -9,6 +9,7 @@ cv.imshow('R', img)
 #dtype es el tipo de dato que va a tener la imagen en este caso es uint8 que es un entero sin signo de 8 bits 
 
 blank = np.zeros((500,500,3), dtype='uint8')
+#crea una imagen en blanco de 500x500 pixeles y 3 canales de color (RGB) y el tipo de dato es uint8
 cv.imshow('blue', blank)
 
 
@@ -31,6 +32,8 @@ cv.imshow('Rectangle', blank)
 
 # Dibujar un circulo
 cv.circle(blank, (blank.shape[1]//2, blank.shape[0]//2), 40, (0,0,255), thickness=3)
+#ek shape[1] es el ancho de la imagen y el shape[0] es el alto de la imagen
+#se divide porque el circulo se dibuja con el radio y no con el diametro
 cv.imshow('Circle', blank)
 
 # Dibujar una linea
