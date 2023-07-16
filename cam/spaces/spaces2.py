@@ -1,6 +1,6 @@
 import cv2 as cv
 import matplotlib.pyplot as plt
-
+ 
 img = cv.imread('Photos/OIP.jpg')
 cv.imshow('uwu', img)
 
