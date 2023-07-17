@@ -1,0 +1,16 @@
+antes con el GaussianBlur pues nomas difuminaba y alv
+
+pero recapitulando se que 
+
+Cuando queremos aplicar este tipo de efecto en una imagen se crea una
+ventana, se le llama ventana o nucleo a una matriz de numeros que se
+multiplica por cada pixel de la imagen, y el resultado de esta multiplicacion
+se guarda en el pixel central de la ventana, y asi sucesivamente hasta
+
+resumen 
+se crea una matriz de 3*3 en el caso que estudi pero puede variar 
+
+el tamaño de la ventana tambieeen se llama Kernel 
+
+Basicamente el desenfoque se applica al pixel central como resultado 
+de lospixeles que lo rodeean  Tambien llamados PIXELES CIRCUNDANTES
