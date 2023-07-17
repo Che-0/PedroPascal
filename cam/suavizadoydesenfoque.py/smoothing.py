@@ -6,7 +6,7 @@ img = cv.imread('photos/S.jpg')
 cv.imshow('Gato', img)
 
 #average blur    average significa promedio
-avareage = cv.blur(img, (3,3))
+avareage = cv.blur(img, (3,3)) #3,3 por el kernel
 cv.imshow('Average Blur', avareage)
 
 # Lo que hace este metodo es que toma los pixeles que estan alrededor (circundantes) de la imagen y los promedia

@@ -1,0 +1,9 @@
+Okey
+pues esta mamada tiene 4 operadores basicos 
+and or not xor
+
+Se usan mucho ene el procesamiento de imagenes, especialmente 
+cuando se trabaja con mascaras (luego hablaremos de eso)
+
+
+Un pixel se apaga si tiene un valor de cero y se enciende si tiene un uno 
