@@ -1,0 +1,6 @@
+Un histograma basicamente permite visualizar la 
+distribucion de las intensidades de los pixeles  en una imagen 
+
+Entonces si una imagen es una imagen de color o si es en escala de 
+grises puedes visualizar la intesidad de  distribucion de estos colores
+con la ayuda de un histograma   

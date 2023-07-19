@@ -1,0 +1,15 @@
+tresholding humbralizacion 
+
+tresholding signigfica que se le asigna un valor de 1 a los pixeles 
+que superan un umbral y 0 a los que no lo superan. 
+En este caso, el umbral es 0.5, por lo que los pixeles que superan 0.5 se les 
+asigna un valor de 1 y los que no lo superan se les asigna un valor de 0.
+
+0 signigfica que es negro y 1 significa que es blanco.
+
+
+Resumen 
+mayor al umbral    =   1   = blanco 
+inferior al umbral =   0   = negro 
+
+
