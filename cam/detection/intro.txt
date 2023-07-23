@@ -1,0 +1,11 @@
+para empezar esto se debe de tener claro que el 
+reconocimento de rostros es diferente a la deteccion 
+de rostros 
+
+La deteccion de rostros simplemente detecta la presencia de un 
+rostro en una imagen   ------ utiliza clasificadores que 
+es un algoritmo que decide si una imagen dada es positiva o negativa 
+o sea si una cara esta presente o no 
+
+mientras que el reconocimento de rostros implica identificar de
+quien es el rostro 
