@@ -9,3 +9,5 @@ o sea si una cara esta presente o no
 
 mientras que el reconocimento de rostros implica identificar de
 quien es el rostro 
+
+kp
