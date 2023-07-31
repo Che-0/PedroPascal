@@ -1,0 +1,14 @@
+
+{%extends "layouts/base.html"%}
+{%block content%}
+<h1>project       .--------------x</h1>
+
+{{project}}
+<p>{{project}}</p>
+
+{% for projec in project %}
+    <h1>{{projec.name}}</h1>
+{% endfor %}
+
+<!-- esta mamada es codigo de python pero encerrado en esa wea -->
+{% endblock %}
