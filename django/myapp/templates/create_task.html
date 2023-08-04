@@ -1,0 +1,14 @@
+{%extends 'layouts/base.html'%}
+
+{%block content%}
+
+<h1>Create a new task</h1>
+<form method="POST">
+    {%csrf_token%}   {# esto es para que no se pueda hacer un ataque de tipo cross-site request forgery #}
+    {{form.as_p}}
+    <button>
+        Save
+    </button>
+</form>
+
+{%endblock%}
